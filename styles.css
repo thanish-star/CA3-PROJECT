@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f3f4f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.2em;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+section {
+    background: white;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 1em;
+    color: #4CAF50;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+input[type="text"], textarea, select {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75em 1.5em;
+    margin-top: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#loading {
+    display: none;
+    text-align: center;
+    color: #4CAF50;
+}
+
+#statusMessage {
+    color: #ff5722;
+}
+
+#historyList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#historyList li {
+    background: #f1f1f1;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 4px;
+}
